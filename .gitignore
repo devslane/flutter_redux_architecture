@@ -344,3 +344,4 @@ playground.xcworkspace
 
 # Build files
 build/
+.idea/
