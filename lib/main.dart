@@ -7,10 +7,6 @@ import 'package:flutter_demo/middleware/app_middleware.dart';
 import 'package:flutter_demo/middleware/user_middleware.dart';
 import 'package:flutter_demo/reducers/app_state_reducer.dart';
 
-void main() {
-  runApp(DemoApp());
-}
-
 class DemoApp extends StatelessWidget {
   static List<Middleware<AppState>> listMiddleWare =
       new List<Middleware<AppState>>();
